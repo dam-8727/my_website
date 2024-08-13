@@ -79,10 +79,8 @@ const Navbar = () => {
           <NavLink variant="body1">3D Spaces</NavLink>
         </NavItemsContainer>
         <RightItemsContainer>
-          <NavLink variant="body1" href="www.google.com"><a>Get Started</a></NavLink>
-          <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">
-  Get Started
-</a>
+          <NavLink variant="body1">Get Started</NavLink>
+        
 
       
         </RightItemsContainer>
