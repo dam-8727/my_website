@@ -1,0 +1,167 @@
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #FFFFFF; /* White color */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transform: perspective(500px) rotateX(10deg);
+}
+
+/* Card Section Container */
+.card-section-container {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  background-image: url('../assets/blurbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Section Heading */
+.section-heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #FFFFFF; /* White color */
+}
+
+/* Card Section */
+.card-section {
+  overflow: hidden; /* Hide overflow for smooth animations */
+}
+
+/* Card Row */
+.card-row {
+  display: flex;
+  gap: 30px;
+  white-space: nowrap; /* Ensure cards stay in a row */
+  will-change: transform; /* Improve animation performance */
+  transition: opacity 1s ease; /* Smooth fade transition */
+}
+
+/* Individual Card */
+.card {
+  width: 220px;
+  height: 220px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  will-change: transform; /* Improve animation performance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* Card Content */
+.card-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* NFT Marketplace */
+.nft-marketplace-container {
+  margin-top: 60px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  background-image: url('../assets/blurbackground.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+/* NFT Marketplace Heading */
+.nft-marketplace-heading {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  background: linear-gradient(45deg, #ff0099, #ff66b2, #d633f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5), 2px 2px 6px rgba(0, 0, 0, 0.4), 3px 3px 9px rgba(0, 0, 0, 0.3);
+  transform: perspective(500px) rotateX(10deg);
+}
+
+/* NFT Marketplace */
+.nft-marketplace {
+  overflow: hidden; /* Hide overflow for smooth animations */
+}
+
+/* NFT Row */
+.nft-row {
+  display: flex;
+  gap: 20px;
+  white-space: nowrap; /* Ensure cards stay in a row */
+  will-change: transform; /* Improve animation performance */
+  transition: opacity 1s ease; /* Smooth fade transition */
+}
+
+/* NFT Card */
+.nft-card {
+  width: 280px;
+  height: 280px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  will-change: transform; /* Improve animation performance */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* NFT Card Hover Effect */
+.nft-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+/* NFT Image */
+.nft-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+/* NFT Content */
+.nft-content {
+  padding: 10px;
+  text-align: center;
+}
+
+.nft-card h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.nft-card p {
+  font-size: 0.8rem;
+  color: #666;
+}
